@@ -92,26 +92,27 @@ public class MainMenu extends GuiScreen {
         // prerelease / beta / dev check
 
         if(!Hydrogen.getClient().isStableBuild) {
-            FontHelper.comfortaa_r.drawStringWithShadowMainMenu("§c§lWARNING: §7Non-stable version!", 144, Hydrogen.getClient().outdated ? Utils.getScaledRes().getScaledHeight() - 50 : Utils.getScaledRes().getScaledHeight() - 26, Color.white);
-            FontHelper.comfortaa_r.drawStringWithShadowMainMenu("§7Please report any issues at our §f§n§lGitHub.", 144, Hydrogen.getClient().outdated ? Utils.getScaledRes().getScaledHeight() - 38 : Utils.getScaledRes().getScaledHeight() - 14, Color.white);
+           // FontHelper.comfortaa_r.drawStringWithShadowMainMenu("§c§lWARNING: §7Non-stable version!", 144, Hydrogen.getClient().outdated ? Utils.getScaledRes().getScaledHeight() - 50 : Utils.getScaledRes().getScaledHeight() - 26, Color.white);
+           // FontHelper.comfortaa_r.drawStringWithShadowMainMenu("§7Please report any issues at our §f§n§lGitHub.", 144, Hydrogen.getClient().outdated ? Utils.getScaledRes().getScaledHeight() - 38 : Utils.getScaledRes().getScaledHeight() - 14, Color.white);
 
             // fps counter
 
-            FontHelper.comfortaa_r.drawStringWithShadowMainMenu("FPS: " + Minecraft.getDebugFPS(), 144, 2, Color.WHITE);
+            //FontHelper.comfortaa_r.drawStringWithShadowMainMenu("FPS: " + Minecraft.getDebugFPS(), 144, 2, Color.WHITE);
         }
 
         // logo
 
-        FontHelper.sf_l_mm.drawString("hydrogen", Utils.getScaledRes().getScaledWidth() / 2 - 43, Utils.getScaledRes().getScaledHeight() / 2 - 36, new Color(51, 50, 50));
-        FontHelper.sf_l_mm.drawString("hydrogen", Utils.getScaledRes().getScaledWidth() / 2 - 45, Utils.getScaledRes().getScaledHeight() / 2 - 37, new Color(207, 238, 255));
+        FontHelper.comfortaa_rb.drawString("ORANGE", Utils.getScaledRes().getScaledWidth() / 2 - 43, Utils.getScaledRes().getScaledHeight() / 2 - 36, new Color(15, 15, 15));
+        FontHelper.comfortaa_rb.drawString("ORANGE", Utils.getScaledRes().getScaledWidth() / 2 - 44, Utils.getScaledRes().getScaledHeight() / 2 - 36.5, new Color(201, 105, 44));
 
-        FontHelper.sf_l2.drawStringWithShadow("§7" + Hydrogen.version, Utils.getScaledRes().getScaledWidth() / 2 + FontHelper.sf_l_mm.getStringWidth("hydrogen") - 46, Utils.getScaledRes().getScaledHeight() / 2 - 38, Color.white);
+        FontHelper.comfortaa_r2.drawString("CLIENT", Utils.getScaledRes().getScaledWidth() / 2 - 43, Utils.getScaledRes().getScaledHeight() / 2 - -1, new Color(15, 15, 15 ));
+        FontHelper.comfortaa_r2.drawString("CLIENT", Utils.getScaledRes().getScaledWidth() / 2 - 44, Utils.getScaledRes().getScaledHeight() / 2 - -0.5, new Color(201, 105, 44));
 
         // splash
 
         FontUtil.drawTotalCenteredStringWithShadowComfortaa(splashText, Utils.getScaledRes().getScaledWidth() / 2 + (FontHelper.sf_l_mm.getStringWidth("hydrogen") / 2) - 46, Utils.getScaledRes().getScaledHeight() / 2 + 33, Color.WHITE);
 
-        particleGenerator.drawParticles(mouseX, mouseY, true);
+        //particleGenerator.drawParticles(mouseX, mouseY, true);
     }
 
 }
