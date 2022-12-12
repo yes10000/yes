@@ -102,17 +102,17 @@ public class MainMenu extends GuiScreen {
 
         // logo
 
-        FontHelper.comfortaa_rb.drawString("ORANGE", Utils.getScaledRes().getScaledWidth() / 2 - 43, Utils.getScaledRes().getScaledHeight() / 2 - 36, new Color(15, 15, 15));
-        FontHelper.comfortaa_rb.drawString("ORANGE", Utils.getScaledRes().getScaledWidth() / 2 - 44, Utils.getScaledRes().getScaledHeight() / 2 - 36.5, new Color(201, 105, 44));
+        FontHelper.comfortaa_rb.drawString("Green", Utils.getScaledRes().getScaledWidth() / 2 - 57, Utils.getScaledRes().getScaledHeight() / 2 - 79.5, new Color(15, 15, 15));
+        FontHelper.comfortaa_rb.drawString("Green", Utils.getScaledRes().getScaledWidth() / 2 - 60, Utils.getScaledRes().getScaledHeight() / 2 - 78.5, new Color(50, 168, 82));
 
-        FontHelper.comfortaa_r2.drawString("CLIENT", Utils.getScaledRes().getScaledWidth() / 2 - 43, Utils.getScaledRes().getScaledHeight() / 2 - -1, new Color(15, 15, 15 ));
-        FontHelper.comfortaa_r2.drawString("CLIENT", Utils.getScaledRes().getScaledWidth() / 2 - 44, Utils.getScaledRes().getScaledHeight() / 2 - -0.5, new Color(201, 105, 44));
+        FontHelper.comfortaa_r2.drawString("client", Utils.getScaledRes().getScaledWidth() / 2 - 33, Utils.getScaledRes().getScaledHeight() / 2 - 38.5, new Color(15, 15, 15 ));
+        FontHelper.comfortaa_r2.drawString("client", Utils.getScaledRes().getScaledWidth() / 2 - 36, Utils.getScaledRes().getScaledHeight() / 2 - 39.5, new Color(96, 171, 75));
 
         // splash
 
         FontUtil.drawTotalCenteredStringWithShadowComfortaa(splashText, Utils.getScaledRes().getScaledWidth() / 2 + (FontHelper.sf_l_mm.getStringWidth("hydrogen") / 2) - 46, Utils.getScaledRes().getScaledHeight() / 2 + 33, Color.WHITE);
 
-        //particleGenerator.drawParticles(mouseX, mouseY, true);
+        particleGenerator.drawParticles(mouseX, mouseY, true);
     }
 
 }

@@ -21,6 +21,8 @@ public class FontHelper {
     public static H2FontRenderer comfortaa_rb;
     public static H2FontRenderer comfortaa_l;
 
+    public static H2FontRenderer rubik;
+
 
     public static void loadFonts() {
         try {
@@ -29,8 +31,12 @@ public class FontHelper {
             Font font4 = Font.createFont(Font.TRUETYPE_FONT, stream4).deriveFont(36f);
             comfortaa_r = new H2FontRenderer(font4, true, 8);
 
+            InputStream stream9 = FontHelper.class.getResourceAsStream("/assets/hydrogen/RubikMonoOne-Regular.ttf");
+            Font font9 = Font.createFont(Font.TRUETYPE_FONT, stream9).deriveFont(190f);
+            rubik = new H2FontRenderer(font9, true, 8);
+
             InputStream stream5 = FontHelper.class.getResourceAsStream("/assets/hydrogen/Panton-Trial-Black.ttf");
-            Font font5 = Font.createFont(Font.TRUETYPE_FONT, stream5).deriveFont(180f);
+            Font font5 = Font.createFont(Font.TRUETYPE_FONT, stream5).deriveFont(200f);
             comfortaa_rb = new H2FontRenderer(font5, true, 8);
 
             InputStream stream6 = FontHelper.class.getResourceAsStream("/assets/hydrogen/Panton-Trial-Black.ttf");
