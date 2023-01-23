@@ -49,44 +49,44 @@ public class MainMenu extends GuiScreen {
 
         // side menu rects (buttons)
 
-        drawRect(40, 0, 140, Utils.getScaledRes().getScaledHeight(), 0x60000000);
-        drawRect(40, 0, 41, Utils.getScaledRes().getScaledHeight(), 0x60000000);
-        drawRect(139, 0, 140, Utils.getScaledRes().getScaledHeight(), 0x60000000);
+        //drawRect(40, 0, 140, Utils.getScaledRes().getScaledHeight(), 0x60000000);
+        //drawRect(40, 0, 41, Utils.getScaledRes().getScaledHeight(), 0x60000000);
+        //drawRect(139, 0, 140, Utils.getScaledRes().getScaledHeight(), 0x60000000);
 
         // right hand strings
 
-        String mds = String.format("%s mods loaded, %s mods active", Loader.instance().getModList().size(), Loader.instance().getActiveModList().size());
-        String fml = String.format("Powered by Forge %s", ForgeVersion.getVersion());
-        String mcp = "MCP 9.19";
-        String mcv = "Minecraft 1.8.9";
-        String name = String.format("%s %s", Hydrogen.name, Hydrogen.version);
+        //String mds = String.format("%s mods loaded, %s mods active", Loader.instance().getModList().size(), Loader.instance().getActiveModList().size());
+        //String fml = String.format("Powered by Forge %s", ForgeVersion.getVersion());
+        //String mcp = "MCP 9.19";
+        //String mcv = "Minecraft 1.8.9";
+        //String name = String.format("%s %s", Hydrogen.name, Hydrogen.version);
         String mname = String.format("Logged in as §7%s", Minecraft.getMinecraft().getSession().getUsername());
-        String devs = String.format("Developed by §7%s §fand §7%s", Hydrogen.devs[0], Hydrogen.devs[1]);
+        //String devs = String.format("Developed by §7%s §fand §7%s", Hydrogen.devs[0], Hydrogen.devs[1]);
 
-        FontHelper.comfortaa_r.drawStringWithShadowMainMenu(mds, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(mds) - 4, Utils.getScaledRes().getScaledHeight() - 14, Color.WHITE);
-        FontHelper.comfortaa_r.drawStringWithShadowMainMenu(fml, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(fml) - 4, Utils.getScaledRes().getScaledHeight() - 26, Color.WHITE);
-        FontHelper.comfortaa_r.drawStringWithShadowMainMenu(mcp, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(mcp) - 4, Utils.getScaledRes().getScaledHeight() - 38, Color.WHITE);
-        FontHelper.comfortaa_r.drawStringWithShadowMainMenu(mcv, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(mcv) - 4, Utils.getScaledRes().getScaledHeight() - 50, Color.WHITE);
+        //FontHelper.comfortaa_r.drawStringWithShadowMainMenu(mds, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(mds) - 4, Utils.getScaledRes().getScaledHeight() - 14, Color.WHITE);
+        //FontHelper.comfortaa_r.drawStringWithShadowMainMenu(fml, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(fml) - 4, Utils.getScaledRes().getScaledHeight() - 26, Color.WHITE);
+        //FontHelper.comfortaa_r.drawStringWithShadowMainMenu(mcp, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(mcp) - 4, Utils.getScaledRes().getScaledHeight() - 38, Color.WHITE);
+        //FontHelper.comfortaa_r.drawStringWithShadowMainMenu(mcv, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(mcv) - 4, Utils.getScaledRes().getScaledHeight() - 50, Color.WHITE);
 
-        FontHelper.comfortaa_r.drawStringWithShadowMainMenu(name, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(name) - 4, 4, Color.WHITE);
-        FontHelper.comfortaa_r.drawStringWithShadowMainMenu(devs, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(devs) - 4, 16, Color.WHITE);
-        FontHelper.comfortaa_r.drawStringWithShadowMainMenu(mname, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(mname) - 4, 28, Color.WHITE);
+        //FontHelper.comfortaa_r.drawStringWithShadowMainMenu(name, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(name) - 4, 4, Color.WHITE);
+        //FontHelper.comfortaa_r.drawStringWithShadowMainMenu(devs, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(devs) - 4, 16, Color.WHITE);
+        FontHelper.comfortaa_r.drawStringWithShadowMainMenu(mname, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(mname) - 4, 8, Color.WHITE);
 
         // outdated check
 
         if(Hydrogen.getClient().isStableBuild) {
             if (Hydrogen.getClient().outdated) {
-                FontHelper.comfortaa_r.drawStringWithShadow("§cOutdated!", 144, Utils.getScaledRes().getScaledHeight() - 26, Color.WHITE);
-                FontHelper.comfortaa_r.drawStringWithShadow("Newest Version: §a" + Hydrogen.getClient().newversion, 144, Utils.getScaledRes().getScaledHeight() - 14, Color.WHITE);
+                //FontHelper.comfortaa_r.drawStringWithShadow("§cOutdated!", 144, Utils.getScaledRes().getScaledHeight() - 26, Color.WHITE);
+                //FontHelper.comfortaa_r.drawStringWithShadow("Newest Version: §a" + Hydrogen.getClient().newversion, 144, Utils.getScaledRes().getScaledHeight() - 14, Color.WHITE);
             } else {
-                FontHelper.comfortaa_r.drawStringWithShadowMainMenu("§aNo Update available!", 144, Utils.getScaledRes().getScaledHeight() - 14, Color.white);
+                //FontHelper.comfortaa_r.drawStringWithShadowMainMenu("§aNo Update available!", 144, Utils.getScaledRes().getScaledHeight() - 14, Color.white);
             }
         }
 
         // first start
 
         if(Hydrogen.getClient().firstStart) {
-            FontUtil.drawTotalCenteredStringWithShadowSFL2("Welcome to", Utils.getScaledRes().getScaledWidth() / 2 - 22, Utils.getScaledRes().getScaledHeight() / 2 - (FontHelper.sf_l2.getHeight() / 2) - 35, new Color(207, 238, 255));
+            //FontUtil.drawTotalCenteredStringWithShadowSFL2("Welcome to", Utils.getScaledRes().getScaledWidth() / 2 - 22, Utils.getScaledRes().getScaledHeight() / 2 - (FontHelper.sf_l2.getHeight() / 2) - 35, new Color(207, 238, 255));
         }
 
         // prerelease / beta / dev check
@@ -102,15 +102,15 @@ public class MainMenu extends GuiScreen {
 
         // logo
 
-        FontHelper.comfortaa_rb.drawString("Green", Utils.getScaledRes().getScaledWidth() / 2 - 57, Utils.getScaledRes().getScaledHeight() / 2 - 79.5, new Color(15, 15, 15));
-        FontHelper.comfortaa_rb.drawString("Green", Utils.getScaledRes().getScaledWidth() / 2 - 60, Utils.getScaledRes().getScaledHeight() / 2 - 78.5, new Color(50, 168, 82));
+        FontHelper.comfortaa_rb.drawString("Green", Utils.getScaledRes().getScaledWidth() / 2 - 62, Utils.getScaledRes().getScaledHeight() / 2 - 79.5, new Color(15, 15, 15));
+        FontHelper.comfortaa_rb.drawString("Green", Utils.getScaledRes().getScaledWidth() / 2 - 65, Utils.getScaledRes().getScaledHeight() / 2 - 78.5, new Color(50, 168, 82));
 
-        FontHelper.comfortaa_r2.drawString("client", Utils.getScaledRes().getScaledWidth() / 2 - 33, Utils.getScaledRes().getScaledHeight() / 2 - 38.5, new Color(15, 15, 15 ));
-        FontHelper.comfortaa_r2.drawString("client", Utils.getScaledRes().getScaledWidth() / 2 - 36, Utils.getScaledRes().getScaledHeight() / 2 - 39.5, new Color(96, 171, 75));
+        FontHelper.comfortaa_r2.drawString("client", Utils.getScaledRes().getScaledWidth() / 2 - 38, Utils.getScaledRes().getScaledHeight() / 2 - 38.5, new Color(15, 15, 15 ));
+        FontHelper.comfortaa_r2.drawString("client", Utils.getScaledRes().getScaledWidth() / 2 - 41, Utils.getScaledRes().getScaledHeight() / 2 - 39.5, new Color(96, 171, 75));
 
         // splash
 
-        FontUtil.drawTotalCenteredStringWithShadowComfortaa(splashText, Utils.getScaledRes().getScaledWidth() / 2 + (FontHelper.sf_l_mm.getStringWidth("hydrogen") / 2) - 46, Utils.getScaledRes().getScaledHeight() / 2 + 33, Color.WHITE);
+        //FontUtil.drawTotalCenteredStringWithShadowComfortaa(splashText, Utils.getScaledRes().getScaledWidth() / 2 + (FontHelper.sf_l_mm.getStringWidth("hydrogen") / 2) - 46, Utils.getScaledRes().getScaledHeight() / 2 + 33, Color.WHITE);
 
         particleGenerator.drawParticles(mouseX, mouseY, true);
     }

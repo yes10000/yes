@@ -1,11 +1,11 @@
 {
   "Combat": {
-    "posX": 5,
+    "posX": 0,
     "posY": 5,
     "open": false
   },
   "Movement": {
-    "posX": 94,
+    "posX": 91,
     "posY": 5,
     "open": false
   },
@@ -15,7 +15,7 @@
     "open": false
   },
   "Player": {
-    "posX": 272,
+    "posX": 273,
     "posY": 5,
     "open": false
   },

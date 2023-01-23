@@ -132,23 +132,23 @@ public abstract class MixinGuiMainMenu extends GuiScreen {
 
         if(Hydrogen.getClient().moduleManager.getModulebyName("MainMenu").isEnabled() && !Hydrogen.getClient().panic) {
 
-            this.buttonList.add(new ExpandButton(1, 45, Utils.getScaledRes().getScaledHeight() / 2 - 70, 90, 20, "Singleplayer"));
-            this.buttonList.add(new ExpandButton(2, 45, Utils.getScaledRes().getScaledHeight() / 2 - 48, 90, 20, "Multiplayer"));
-            this.buttonList.add(new ExpandButton(0, 45, Utils.getScaledRes().getScaledHeight() / 2 - 26, 90, 20, "Settings"));
-            this.buttonList.add(new ExpandButton(3, 45, Utils.getScaledRes().getScaledHeight() / 2 - 4, 90, 20, "Alt Manager"));
-            this.buttonList.add(new ExpandButton(6, 45, Utils.getScaledRes().getScaledHeight() / 2 + 40, 43, 20, "Mods"));
-            this.buttonList.add(new ExpandButton(36, 91, Utils.getScaledRes().getScaledHeight() / 2 + 40, 44, 20, "Credits"));
-            this.buttonList.add(new ExpandButton(4, 45, Utils.getScaledRes().getScaledHeight() / 2 + 72, 90, 20, "Quit"));
+            this.buttonList.add(new ExpandButton(1, Utils.getScaledRes().getScaledWidth() / 2-75, Utils.getScaledRes().getScaledHeight() / 2 +10, 150, 20, "Singleplayer"));
+            this.buttonList.add(new ExpandButton(2, Utils.getScaledRes().getScaledWidth() / 2-75, Utils.getScaledRes().getScaledHeight() / 2 +32, 150, 20, "Multiplayer"));
+            this.buttonList.add(new ExpandButton(0, Utils.getScaledRes().getScaledWidth() / 2-75, Utils.getScaledRes().getScaledHeight() / 2 + 54, 150, 20, "Settings"));
+            //this.buttonList.add(new ExpandButton(3, Utils.getScaledRes().getScaledWidth() / 2-75, Utils.getScaledRes().getScaledHeight() / 2 - 4, 150, 20, "Alt Manager"));
+            //this.buttonList.add(new ExpandButton(6, Utils.getScaledRes().getScaledWidth() / 2-75, Utils.getScaledRes().getScaledHeight() / 2 + 40, 150, 20, "Mods"));
+            //this.buttonList.add(new ExpandButton(36, 226, Utils.getScaledRes().getScaledHeight() / 2 + 40, 44, 20, "Credits"));
+            this.buttonList.add(new ExpandButton(4, Utils.getScaledRes().getScaledWidth()-70, Utils.getScaledRes().getScaledHeight() -25, 60, 20, "Quit"));
 
             if(Hydrogen.getClient().isStableBuild) {
-                this.buttonList.add(new ExpandButton(97, 45, Utils.getScaledRes().getScaledHeight() / 2 + 18, 90, 20, "Changelog"));
+                //this.buttonList.add(new ExpandButton(97, Utils.getScaledRes().getScaledWidth() / 2-75, Utils.getScaledRes().getScaledHeight() / 2 + 18, 150, 20, "Changelog"));
             } else {
-                this.buttonList.add(new ExpandButton(96, 45, Utils.getScaledRes().getScaledHeight() / 2 + 18, 90, 20, "Current Commit"));
-                this.buttonList.add(new ExpandButton(98, 144, Utils.getScaledRes().getScaledHeight() - 14, FontHelper.sf_l.getStringWidth("§7Please report any issues at our §f§n§lGitHub!") + 34, 20, "", false));
+                //this.buttonList.add(new ExpandButton(96, 45, Utils.getScaledRes().getScaledHeight() / 2 + 18, 90, 20, "Current Commit"));
+                //this.buttonList.add(new ExpandButton(98, 144, Utils.getScaledRes().getScaledHeight() - 14, FontHelper.sf_l.getStringWidth("§7Please report any issues at our §f§n§lGitHub!") + 34, 20, "", false));
             }
 
             if (Hydrogen.getClient().outdated) {
-                this.buttonList.add(new ExpandButton(99, 45, Utils.getScaledRes().getScaledHeight() - 24, 90, 20, "Update"));
+                //this.buttonList.add(new ExpandButton(99, 45, Utils.getScaledRes().getScaledHeight() - 24, 90, 20, "Update"));
             }
 
             // version button string

@@ -37,7 +37,7 @@
     "XYZ Style": "1-Line"
   },
   "Watermark": {
-    "Background": false,
+    "Background": true,
     "Outline": false,
     "Time": true
   },
