@@ -257,8 +257,8 @@ public abstract class MixinGuiMainMenu extends GuiScreen {
             renderSkybox(mouseX, mouseY, partialTicks);
             GlStateManager.disableAlpha();
             GlStateManager.enableAlpha();
-            drawGradientRect(0, 0, this.width, this.height, 0, Hydrogen.getClient().settingsManager.getSettingByName(m, "Rainbow").isEnabled() ? ColorUtil.getRainbowInt(10, 0.5f, 1, 1) : -1610612736);
-            drawGradientRect(0, 0, this.width, this.height, 0x804DB3FF, 0x80000000);
+            //drawGradientRect(0, 0, this.width, this.height, 0, Hydrogen.getClient().settingsManager.getSettingByName(m, "Rainbow").isEnabled() ? ColorUtil.getRainbowInt(10, 0.5f, 1, 1) : -1610612736);
+            //drawGradientRect(0, 0, this.width, this.height, 0x804DB3FF, 0x80000000);
             GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
             GL11.glPushMatrix();
             GL11.glTranslatef(this.width / 2, this.height - 50, 0.0F);
@@ -276,8 +276,8 @@ public abstract class MixinGuiMainMenu extends GuiScreen {
             int i = 274;
             int j = this.width / 2 - i / 2;
             int k = 30;
-            this.drawGradientRect(0, 0, this.width, this.height, -2130706433, 16777215);
-            this.drawGradientRect(0, 0, this.width, this.height, 0, -2147483648);
+            //this.drawGradientRect(0, 0, this.width, this.height, -2130706433, 16777215);
+            //this.drawGradientRect(0, 0, this.width, this.height, 0, -2147483648);
             this.mc.getTextureManager().bindTexture(minecraftTitleTextures);
             GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
             if ((double)this.updateCounter < 1.0E-4D) {
