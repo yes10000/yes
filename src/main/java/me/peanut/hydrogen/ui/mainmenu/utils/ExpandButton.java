@@ -88,6 +88,7 @@ public class ExpandButton extends GuiButton {
                 tooltip.render(tooltipText);
             } else {
                 RenderUtil.rect(this.x - this.size, this.y - this.size, this.x + this.x1 + this.size, this.y + this.y1 + this.size, this.alpha);
+                RenderUtil.rect(this.x - this.size-1, this.y - this.size-1, this.x + this.x1 + this.size+1, this.y + this.y1 + this.size+1, this.alpha);
                 if (!this.tooltipEnabled) {
                     FontUtil.drawTotalCenteredStringWithShadowComfortaa(isOverButton && this.enabled ? "§7" + this.text : this.text, this.x + this.x1 / 2, this.y + this.y1 / 2, Color.white);
                 }

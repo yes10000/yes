@@ -60,7 +60,7 @@ public class MainMenu extends GuiScreen {
         //String mcp = "MCP 9.19";
         //String mcv = "Minecraft 1.8.9";
         //String name = String.format("%s %s", Hydrogen.name, Hydrogen.version);
-        String mname = String.format("Logged in as §7%s", Minecraft.getMinecraft().getSession().getUsername());
+        String mname = String.format("Logged in as %s", Minecraft.getMinecraft().getSession().getUsername());
         //String devs = String.format("Developed by §7%s §fand §7%s", Hydrogen.devs[0], Hydrogen.devs[1]);
 
         //FontHelper.comfortaa_r.drawStringWithShadowMainMenu(mds, Utils.getScaledRes().getScaledWidth() - FontHelper.comfortaa_r.getStringWidth(mds) - 4, Utils.getScaledRes().getScaledHeight() - 14, Color.WHITE);
@@ -103,7 +103,7 @@ public class MainMenu extends GuiScreen {
         // logo
 
         FontHelper.comfortaa_rb.drawString("Green", Utils.getScaledRes().getScaledWidth() / 2 - 62, Utils.getScaledRes().getScaledHeight() / 2 - 79.5, new Color(15, 15, 15));
-        FontHelper.comfortaa_rb.drawString("Green", Utils.getScaledRes().getScaledWidth() / 2 - 65, Utils.getScaledRes().getScaledHeight() / 2 - 78.5, new Color(50, 168, 82));
+        FontHelper.comfortaa_rb.drawString("Green", Utils.getScaledRes().getScaledWidth() / 2 - 65, Utils.getScaledRes().getScaledHeight() / 2 - 80.5, new Color(50, 168, 82));
 
         FontHelper.comfortaa_r2.drawString("client", Utils.getScaledRes().getScaledWidth() / 2 - 38, Utils.getScaledRes().getScaledHeight() / 2 - 38.5, new Color(15, 15, 15 ));
         FontHelper.comfortaa_r2.drawString("client", Utils.getScaledRes().getScaledWidth() / 2 - 41, Utils.getScaledRes().getScaledHeight() / 2 - 39.5, new Color(96, 171, 75));
