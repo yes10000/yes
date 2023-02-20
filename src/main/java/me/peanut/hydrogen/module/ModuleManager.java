@@ -31,7 +31,7 @@ public class ModuleManager {
 
         // 1.0
 
-        add(new Eagle());
+        //add(new Eagle());
         add(new ClickGUI());
         add(new FastPlace());
         add(new Sprint());
@@ -43,25 +43,25 @@ public class ModuleManager {
         add(new me.peanut.hydrogen.ui.ingame.components.ArrayList());
         add(new Hotbar());
         add(new Info());
-        add(new Watermark());
+        //add(new Watermark());
         add(new PotionEffects());
 
         // 1.1
 
-        add(new AutoClicker());
-        add(new ESP());
-        add(new TriggerBot());
+        //add(new AutoClicker());
+        //add(new ESP());
+        //add(new TriggerBot());
         add(new NoBob());
 
         // 1.2
 
         add(new Fullbright());
-        add(new SafeWalk());
+        //add(new SafeWalk());
 
         // 1.3
 
         add(new NameTags());
-        add(new ChestStealer());
+        //add(new ChestStealer());
         add(new InventoryWalk());
         add(new NoSpeedFOV());
         add(new Trajectories());
@@ -84,7 +84,7 @@ public class ModuleManager {
         // 1.8
 
         //add(new AimBot()); // TODO: recode
-        //add(new TargetSelect());
+        add(new TargetSelect());
         add(new FastBow());
         add(new Reach());
         add(new HitBox());

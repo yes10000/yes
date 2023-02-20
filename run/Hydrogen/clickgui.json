@@ -10,9 +10,9 @@
     "open": false
   },
   "Render": {
-    "posX": 183,
-    "posY": 5,
-    "open": false
+    "posX": 180,
+    "posY": 0,
+    "open": true
   },
   "Player": {
     "posX": 273,
