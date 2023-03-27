@@ -19,8 +19,8 @@ public class FastBow extends Module {
 
     public FastBow() {}
 
-    @EventTarget
-    public void onUpdate(EventUpdate event) {
+    //@EventTarget
+    /*public void onUpdate(EventUpdate event) {
         if (mc.thePlayer == null || mc.thePlayer.getCurrentEquippedItem() == null) return;
             if (Mouse.isButtonDown(1) && mc.thePlayer.getCurrentEquippedItem().getItem() instanceof ItemBow && mc.thePlayer.onGround) {
                 for (int power = 20, i = 0; i < power; ++i) {
@@ -29,5 +29,5 @@ public class FastBow extends Module {
                 mc.playerController.onStoppedUsingItem(mc.thePlayer);
             }
 
-    }
+    }*/
 }

@@ -50,21 +50,21 @@ public abstract class MixinRendererLivingEntity<T extends EntityLivingBase> exte
 
     @Shadow protected abstract void unsetBrightness();
 
-    @Inject(method = "doRender*", at = @At("HEAD"))
-    private <T extends EntityLivingBase> void injectChamsPre(final T a, final double b, final double c, final double d, final float e, final float f, final CallbackInfo g) {
-        if (Hydrogen.getClient().moduleManager.getModulebyName("Chams").isEnabled()) {
-            GL11.glEnable(32823);
-            GL11.glPolygonOffset(1.0f, -1000000.0f);
-        }
-    }
+    //@Inject(method = "doRender*", at = @At("HEAD"))
+    //private <T extends EntityLivingBase> void injectChamsPre(final T a, final double b, final double c, final double d, final float e, final float f, final CallbackInfo g) {
+    //    if (Hydrogen.getClient().moduleManager.getModulebyName("Chams").isEnabled()) {
+    //        GL11.glEnable(32823);
+    //        GL11.glPolygonOffset(1.0f, -1000000.0f);
+    //    }
+    //}
 
-    @Inject(method = "doRender*", at = @At("RETURN"))
-    private <T extends EntityLivingBase> void injectChamsPost(final T a, final double b, final double c, final double d, final float e, final float f, final CallbackInfo g) {
-        if (Hydrogen.getClient().moduleManager.getModulebyName("Chams").isEnabled()) {
-            GL11.glPolygonOffset(1.0f, 1000000.0f);
-            GL11.glDisable(32823);
-        }
-    }
+    //@Inject(method = "doRender*", at = @At("RETURN"))
+    //private <T extends EntityLivingBase> void injectChamsPost(final T a, final double b, final double c, final double d, final float e, final float f, final CallbackInfo g) {
+        //if (Hydrogen.getClient().moduleManager.getModulebyName("Chams").isEnabled()) {
+            //GL11.glPolygonOffset(1.0f, 1000000.0f);
+            //GL11.glDisable(32823);
+    //    }
+    //}
 
 
     @Overwrite

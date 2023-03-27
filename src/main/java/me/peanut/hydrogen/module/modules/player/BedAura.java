@@ -55,8 +55,8 @@ public class BedAura extends Module {
 
 
     @EventTarget
-    public void onUpdate(EventUpdate e) {
-        if(this.isEnabled()) {
+    //public void onUpdate(EventUpdate e) {
+        /*if(this.isEnabled()) {
             boolean bypassWall = h2.settingsManager.getSettingByName(this, "ThroughWalls").isEnabled();
             int radius = (int) h2.settingsManager.getSettingByName("Radius").getValue();
             int delay = (int) h2.settingsManager.getSettingByName(this, "Delay").getValue();
@@ -98,8 +98,8 @@ public class BedAura extends Module {
                 }
                 this.x++;
             }
-        }
-    }
+        }*/
+    //}
 
     private void checkIds() {
         boolean bed = h2.settingsManager.getSettingByName(this, "Bed").isEnabled();

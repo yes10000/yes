@@ -16,8 +16,8 @@ public class Panic extends Module {
 
     public Panic() {}
 
-    @Override
-    public void onEnable() {
+    //@Override
+    /*public void onEnable() {
 
         for (Module m : h2.moduleManager.getEnabledMods()) {
             m.toggle();
@@ -31,5 +31,5 @@ public class Panic extends Module {
         // disables clickgui, if open
 
         mc.displayGuiScreen(null);
-    }
+    }*/
 }

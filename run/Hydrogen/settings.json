@@ -1,21 +1,72 @@
 {
-  "FastBridge": {},
-  "ClickGUI": {
-    "Font Type": "TTF",
-    "Blur": true,
-    "Tooltip": true,
-    "Particles": false,
-    "Red": 163.0,
-    "Blue": 223.0,
+  "MurderMystery": {
+    "Tracers": true,
+    "Red": 255.0,
+    "Blue": 255.0,
     "Green": 255.0,
-    "Alpha": 220.0
+    "Alpha": 120.0
   },
-  "FastPlace": {},
-  "Sprint": {},
-  "Chams": {},
-  "HUD": {
-    "Time Format": "24H",
-    "Style": "New"
+  "PotionEffects": {},
+  "NameProtect": {
+    "Your Name": "§cMe",
+    "Other Names": "User",
+    "All Players": false,
+    "SkinProtect": true
+  },
+  "Breadcrumbs": {
+    "Red": 255.0,
+    "Green": 255.0,
+    "Blue": 255.0,
+    "Alpha": 180.0
+  },
+  "NoSpeedFOV": {},
+  "HitAnimation": {},
+  "NoChatRect": {},
+  "NoHurtCam": {},
+  "CameraClip": {},
+  "NoBowFOV": {},
+  "Animations": {
+    "BlockHit": true,
+    "Rod": true,
+    "Bow": true,
+    "Third-person Block": true,
+    "Armor Damage": true,
+    "Inventory Offset": true,
+    "Dropped Items": true,
+    "Tab List": true
+  },
+  "NameTags": {
+    "Health": true,
+    "State": false,
+    "Items": true,
+    "MurderMystery": true
+  },
+  "MainMenu": {
+    "Rainbow": true,
+    "Startup Sound": true
+  },
+  "PingSpoof": {
+    "Max. Delay": 1000.0,
+    "Min. Delay": 500.0
+  },
+  "AutoType": {
+    "Text": "/spawn",
+    "Health": false,
+    "Health Value": 4.0
+  },
+  "Fullbright": {},
+  "AntiBlind": {
+    "Pumpkin": true,
+    "Fire": true,
+    "Potion": true
+  },
+  "AutoBow": {},
+  "Freecam": {
+    "Speed": 0.7,
+    "Packet Suspend": true
+  },
+  "NoSwing": {
+    "Server-side": false
   },
   "ArrayList": {
     "Outline": true,
@@ -27,104 +78,18 @@
     "Rb. Saturation": 0.4,
     "Rb. Delay": 4.0
   },
-  "Hotbar": {
-    "FPS": true,
-    "Coordinates": true,
-    "Time / Date": true
+  "TTFChat": {
+    "Type": "SF UI Display"
   },
-  "Info": {
-    "Alignment": "Right",
-    "XYZ Style": "1-Line"
-  },
-  "Watermark": {
-    "Background": true,
-    "Outline": false,
-    "Time": true
-  },
-  "PotionEffects": {},
-  "AutoClicker": {
-    "Type": "Left Click",
-    "Min. CPS": 4.0,
-    "Max. CPS": 8.0
-  },
-  "ESP": {
-    "LineWidth": 3.0,
-    "Entities": true
-  },
-  "TriggerBot": {
-    "CPS": 9.0,
-    "Random MS": 5.0
-  },
-  "NoBob": {},
-  "Fullbright": {},
-  "SafeWalk": {},
-  "NameTags": {
-    "Health": true,
-    "State": false,
-    "Items": true,
-    "MurderMystery": true
-  },
-  "ChestStealer": {
-    "Delay": 100.0,
-    "Auto Close": false
-  },
-  "InventoryWalk": {},
-  "NoSpeedFOV": {},
-  "Trajectories": {
-    "Alpha": 150.0
-  },
-  "AutoRespawn": {},
-  "StorageESP": {
-    "Filling": true
-  },
-  "AntiAFK": {},
-  "WTap": {
-    "Delay": 500.0,
-    "Held": 100.0
-  },
-  "ItemESP": {
-    "Outline": true,
-    "Red": 255.0,
-    "Blue": 255.0,
+  "ClickGUI": {
+    "Font Type": "TTF",
+    "Blur": true,
+    "Tooltip": true,
+    "Particles": false,
+    "Red": 163.0,
+    "Blue": 223.0,
     "Green": 255.0,
-    "Alpha": 120.0
-  },
-  "MainMenu": {
-    "Rainbow": true,
-    "Startup Sound": true
-  },
-  "NoHurtCam": {},
-  "BedESP": {},
-  "BedAura": {
-    "Bed": true,
-    "Cake": false,
-    "Egg": false,
-    "ThroughWalls": false,
-    "Radius": 5.0,
-    "Delay": 1000.0
-  },
-  "FastBow": {},
-  "Reach": {
-    "Distance": 4.0
-  },
-  "HitBox": {
-    "Expand": 0.15
-  },
-  "STap": {
-    "Delay": 500.0,
-    "Held": 100.0
-  },
-  "NoChatRect": {},
-  "PingSpoof": {
-    "Max. Delay": 1000.0,
-    "Min. Delay": 500.0
-  },
-  "MurderMystery": {
-    "Tracers": true,
-    "Red": 255.0,
-    "Blue": 255.0,
-    "Green": 255.0,
-    "Alpha": 120.0
+    "Alpha": 220.0
   },
   "Tracers": {
     "Red": 255.0,
@@ -132,51 +97,23 @@
     "Green": 255.0,
     "Alpha": 120.0
   },
-  "TTFChat": {
-    "Type": "SF UI Display"
+  "Hotbar": {
+    "FPS": true,
+    "Coordinates": true,
+    "Time / Date": true
   },
+  "NoBob": {},
+  "HitBox": {
+    "Expand": 0.15
+  },
+  "Sprint": {},
   "§cPanic": {},
-  "NameProtect": {
-    "Your Name": "§cMe",
-    "Other Names": "User",
-    "All Players": false,
-    "SkinProtect": true
+  "HUD": {
+    "Time Format": "24H",
+    "Style": "New"
   },
-  "AntiBlind": {
-    "Pumpkin": true,
-    "Fire": true,
-    "Potion": true
-  },
-  "Breadcrumbs": {
-    "Red": 255.0,
-    "Green": 255.0,
-    "Blue": 255.0,
-    "Alpha": 180.0
-  },
-  "CameraClip": {},
-  "NoBowFOV": {},
-  "AutoBow": {},
-  "AutoType": {
-    "Text": "/spawn",
-    "Health": false,
-    "Health Value": 4.0
-  },
-  "Freecam": {
-    "Speed": 0.7,
-    "Packet Suspend": true
-  },
-  "NoSwing": {
-    "Server-side": false
-  },
-  "Animations": {
-    "BlockHit": true,
-    "Rod": true,
-    "Bow": true,
-    "Third-person Block": true,
-    "Armor Damage": true,
-    "Inventory Offset": true,
-    "Dropped Items": true,
-    "Tab List": true
-  },
-  "HitAnimation": {}
+  "Info": {
+    "Alignment": "Right",
+    "XYZ Style": "1-Line"
+  }
 }

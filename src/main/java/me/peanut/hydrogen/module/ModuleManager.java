@@ -31,11 +31,11 @@ public class ModuleManager {
 
         // 1.0
 
-        add(new Eagle());
+        //add(new Eagle());
         add(new ClickGUI());
-        add(new FastPlace());
+        //add(new FastPlace());
         add(new Sprint());
-        add(new Chams());
+        //add(new Chams());
 
         // hud
 
@@ -43,64 +43,64 @@ public class ModuleManager {
         add(new me.peanut.hydrogen.ui.ingame.components.ArrayList());
         add(new Hotbar());
         add(new Info());
-        add(new Watermark());
+        //add(new Watermark());
         add(new PotionEffects());
 
         // 1.1
 
-        add(new AutoClicker());
-        add(new ESP());
-        add(new TriggerBot());
+        //add(new AutoClicker());
+        //add(new ESP());
+        //add(new TriggerBot());
         add(new NoBob());
 
         // 1.2
 
         add(new Fullbright());
-        add(new SafeWalk());
+        //add(new SafeWalk());
 
         // 1.3
 
         add(new NameTags());
-        add(new ChestStealer());
-        add(new InventoryWalk());
+        //add(new ChestStealer());
+        //add(new InventoryWalk());
         add(new NoSpeedFOV());
-        add(new Trajectories());
-        add(new AutoRespawn());
-        add(new StorageESP());
+        //add(new Trajectories());
+        //add(new AutoRespawn());
+        //add(new StorageESP());
 
         // 1.4
 
-        add(new AntiAFK());
-        add(new WTap());
-        add(new ItemESP());
+        //add(new AntiAFK());
+        //add(new WTap());
+        //add(new ItemESP());
 
         // 1.5
 
         add(new MainMenuModule());
         add(new NoHurtCam());
-        add(new BedESP());
-        add(new BedAura());
+        //add(new BedESP());
+        //add(new BedAura());
 
         // 1.8
 
         //add(new AimBot()); // TODO: recode
         //add(new TargetSelect());
-        add(new FastBow());
-        add(new Reach());
+        //add(new FastBow());
+        //add(new Reach());
         add(new HitBox());
 
         // 1.9
 
         //add(new BowAimbot()); TODO: recode
-        add(new STap());
+        //add(new STap());
         add(new ChatRect());
 
         // 1.10
 
-        add(new PingSpoof());
-        add(new MurderMystery());
+        //add(new PingSpoof());
+        //add(new MurderMystery());
         add(new Tracers());
-        add(new TTFChat());
+        //add(new TTFChat());
         add(new Panic());
         add(new NameProtect());
 

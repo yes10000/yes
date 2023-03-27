@@ -2,27 +2,27 @@
   "Combat": {
     "posX": 0,
     "posY": 5,
-    "open": false
+    "open": true
   },
   "Movement": {
     "posX": 91,
     "posY": 5,
-    "open": false
+    "open": true
   },
   "Render": {
     "posX": 183,
     "posY": 5,
-    "open": false
+    "open": true
   },
   "Player": {
     "posX": 273,
     "posY": 5,
-    "open": false
+    "open": true
   },
   "Gui": {
-    "posX": 361,
+    "posX": 365,
     "posY": 5,
-    "open": false
+    "open": true
   },
   "Hud": {
     "posX": 450,

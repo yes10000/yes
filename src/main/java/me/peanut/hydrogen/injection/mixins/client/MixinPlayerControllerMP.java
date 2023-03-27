@@ -17,10 +17,10 @@ public class MixinPlayerControllerMP {
 
     @Inject(method = "getBlockReachDistance", at = @At("HEAD"), cancellable = true)
     private void getReach(final CallbackInfoReturnable<Float> returnable) {
-        final Module reach = Hydrogen.getClient().moduleManager.getModule(Reach.class);
-        if (reach.isEnabled()) {
-            returnable.setReturnValue((float) Hydrogen.getClient().settingsManager.getSettingByName(reach, "Distance").getValue());
-        }
+        //final Module reach = Hydrogen.getClient().moduleManager.getModule(Reach.class);
+        //if (reach.isEnabled()) {
+            //returnable.setReturnValue((float) Hydrogen.getClient().settingsManager.getSettingByName(reach, "Distance").getValue());
+        //}
     }
 
 }

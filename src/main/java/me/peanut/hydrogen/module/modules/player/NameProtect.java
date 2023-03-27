@@ -16,7 +16,7 @@ import org.apache.commons.lang3.StringUtils;
 @Info(name = "NameProtect", category = Category.Player, description = "Changes your name clientside")
 public class NameProtect extends Module {
 
-    public NameProtect() {
+    /*public NameProtect() {
         addSetting(new Setting("Your Name", this, "§cMe"));
         addSetting(new Setting("Other Names", this, "User"));
         addSetting(new Setting("All Players", this, false));
@@ -37,5 +37,5 @@ public class NameProtect extends Module {
                 event.setText(StringUtils.replace(event.getText(), playerInfo.getGameProfile().getName(), h2.settingsManager.getSettingByName(this, "Other Names").getText()));
             }
         }
-    }
+    }*/
 }

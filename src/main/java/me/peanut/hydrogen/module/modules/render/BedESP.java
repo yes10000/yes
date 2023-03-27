@@ -18,13 +18,14 @@ import java.awt.*;
 /**
  * Created by peanut on 27/02/2021
  */
+
 @Info(name = "BedESP", category = Category.Render, description = "Draws a box around beds")
 public class BedESP extends Module {
 
     public BedESP() {}
 
-    @EventTarget
-    public void onRender(EventRender3D e) {
+    //@EventTarget
+   /* public void onRender(EventRender3D e) {
         BlockPos blockPos = BedAura.pos;
         double x = blockPos.getX() - Minecraft.getMinecraft().getRenderManager().renderPosX;
         double y = blockPos.getY() - Minecraft.getMinecraft().getRenderManager().renderPosY;
@@ -32,8 +33,9 @@ public class BedESP extends Module {
         int id = Block.getIdFromBlock(mc.theWorld.getBlockState(blockPos).getBlock());
         if (id == 26) {
             Color c = new Color(Color.red.getRed(), Color.red.getGreen(), Color.red.getBlue(), 30);
-            RenderUtil.renderBox(x + 0.5D, y - 0.5D, z + 0.5D, 1.0F, 0.6F, c);
-        }
+            RenderUtil.renderBox(x + 0.5D, y - 0.5D, z + 0.5D, 1.0F, 0.6F, c);*/
+        //}
 
-    }
+   // }
 }
+
