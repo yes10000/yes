@@ -99,14 +99,14 @@ public class ModuleManager {
 
         //add(new PingSpoof());
         //add(new MurderMystery());
-        add(new Tracers());
-        //add(new TTFChat());
-        add(new Panic());
-        add(new NameProtect());
+        //add(new Tracers());
+        add(new TTFChat());
+        //add(new Panic());
+        //add(new NameProtect());
 
         // 1.11
 
-        add(new AntiBlind());
+        //add(new AntiBlind());
         add(new Breadcrumbs());
         add(new CameraClip());
         add(new NoBowFOV());

@@ -36,8 +36,8 @@ public abstract class MixinEntityLivingBase extends MixinEntity {
 
     @Inject(method = "isPotionActive(Lnet/minecraft/potion/Potion;)Z", at = @At("HEAD"), cancellable = true)
     private void isPotionActive(Potion p_isPotionActive_1_, CallbackInfoReturnable<Boolean> ciReturnbale) {
-        Module antiBlind = Hydrogen.getClient().moduleManager.getModule(AntiBlind.class);
-        if ((p_isPotionActive_1_ == Potion.confusion || p_isPotionActive_1_ == Potion.blindness) && antiBlind.isEnabled() && Hydrogen.getClient().settingsManager.getSettingByName(antiBlind, "Potion").isEnabled()) {
+        //Module antiBlind = Hydrogen.getClient().moduleManager.getModule(AntiBlind.class);
+        if ((p_isPotionActive_1_ == Potion.confusion || p_isPotionActive_1_ == Potion.blindness)) {
             ciReturnbale.setReturnValue(false);
         }
     }

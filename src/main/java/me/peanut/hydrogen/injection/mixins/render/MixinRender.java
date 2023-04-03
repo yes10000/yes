@@ -90,9 +90,9 @@ public abstract class MixinRender<T extends Entity> {
                             }
                         }
 
-                        if (Hydrogen.getClient().settingsManager.getSettingByName("MurderMystery").isEnabled() && Hydrogen.getClient().moduleManager.getModulebyName("MurderMystery").isEnabled() && MurderMystery.isMurderer) {
-                            p_147906_2_ += " §c[MURDERER]";
-                        }
+                        //if (Hydrogen.getClient().settingsManager.getSettingByName("MurderMystery").isEnabled() && Hydrogen.getClient().moduleManager.getModulebyName("MurderMystery").isEnabled() && MurderMystery.isMurderer) {
+                            //p_147906_2_ += " §c[MURDERER]";
+                        //}
 
                         if (distance >= 10.0F) {
                             height = (float) (height + (distance / 40.0F - 0.25D));

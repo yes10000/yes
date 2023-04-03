@@ -1,18 +1,5 @@
 {
-  "MurderMystery": {
-    "Tracers": true,
-    "Red": 255.0,
-    "Blue": 255.0,
-    "Green": 255.0,
-    "Alpha": 120.0
-  },
   "PotionEffects": {},
-  "NameProtect": {
-    "Your Name": "§cMe",
-    "Other Names": "User",
-    "All Players": false,
-    "SkinProtect": true
-  },
   "Breadcrumbs": {
     "Red": 255.0,
     "Green": 255.0,
@@ -45,21 +32,12 @@
     "Rainbow": true,
     "Startup Sound": true
   },
-  "PingSpoof": {
-    "Max. Delay": 1000.0,
-    "Min. Delay": 500.0
-  },
   "AutoType": {
     "Text": "/spawn",
     "Health": false,
     "Health Value": 4.0
   },
   "Fullbright": {},
-  "AntiBlind": {
-    "Pumpkin": true,
-    "Fire": true,
-    "Potion": true
-  },
   "AutoBow": {},
   "Freecam": {
     "Speed": 0.7,
@@ -79,7 +57,7 @@
     "Rb. Delay": 4.0
   },
   "TTFChat": {
-    "Type": "SF UI Display"
+    "Type": "Comfortaa"
   },
   "ClickGUI": {
     "Font Type": "TTF",
@@ -91,12 +69,6 @@
     "Green": 255.0,
     "Alpha": 220.0
   },
-  "Tracers": {
-    "Red": 255.0,
-    "Blue": 255.0,
-    "Green": 255.0,
-    "Alpha": 120.0
-  },
   "Hotbar": {
     "FPS": true,
     "Coordinates": true,
@@ -107,7 +79,6 @@
     "Expand": 0.15
   },
   "Sprint": {},
-  "§cPanic": {},
   "HUD": {
     "Time Format": "24H",
     "Style": "New"

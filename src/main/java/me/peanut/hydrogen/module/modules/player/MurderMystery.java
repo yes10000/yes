@@ -19,7 +19,7 @@ import java.util.ArrayList;
 /**
  * Created by peanut on 05/09/2021
  */
-@Info(name = "MurderMystery", category = Category.Player, description = "Reveals you the murderer")
+//@Info(name = "MurderMystery", category = Category.Player, description = "Reveals you the murderer")
 
 public class MurderMystery extends Module {
 
@@ -27,16 +27,16 @@ public class MurderMystery extends Module {
 
     public static boolean isMurderer = false;
 
-    public MurderMystery() {
+    /*public MurderMystery() {
         addSetting(new Setting("Tracers", this, true));
         addSetting(new Setting("Red", this, 255, 0, 255, true));
         addSetting(new Setting("Blue", this, 255, 0, 255, true));
         addSetting(new Setting("Green", this, 255, 0, 255, true));
         addSetting(new Setting("Alpha", this, 120, 0, 255, true));
-    }
+    }*/
 
-    @EventTarget
-    public void onRender(EventRender3D e) {
+    //@EventTarget
+    /*public void onRender(EventRender3D e) {
         boolean drawTracers = h2.settingsManager.getSettingByName(this, "Tracers").isEnabled();
         int red = (int) h2.settingsManager.getSettingByName(this, "Red").getValue();
         int blue = (int) h2.settingsManager.getSettingByName(this, "Blue").getValue();
@@ -80,7 +80,7 @@ public class MurderMystery extends Module {
                 }
             }
         });
-    }
+    }*/
 
     private boolean hasSword(EntityPlayer e) {
         for (int i = 0; i < 8; i++) {

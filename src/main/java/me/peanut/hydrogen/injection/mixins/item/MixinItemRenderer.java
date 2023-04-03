@@ -73,12 +73,12 @@ public abstract class MixinItemRenderer {
     @Shadow
     public abstract void renderPlayerArm(AbstractClientPlayer clientPlayer, float equipProgress, float swingProgress);
 
-    @Inject(method = "renderFireInFirstPerson", at = @At("HEAD"), cancellable = true)
+    //@Inject(method = "renderFireInFirstPerson", at = @At("HEAD"), cancellable = true)
     private void renderFireInFirstPerson(CallbackInfo ci) {
-        Module antiBlind = Hydrogen.getClient().moduleManager.getModule(AntiBlind.class);
-        if (antiBlind.isEnabled() && Hydrogen.getClient().settingsManager.getSettingByName(antiBlind, "Fire").isEnabled()) {
-            ci.cancel();
-        }
+        //Module antiBlind = Hydrogen.getClient().moduleManager.getModule(AntiBlind.class);
+        /*if (antiBlind.isEnabled() && Hydrogen.getClient().settingsManager.getSettingByName(antiBlind, "Fire").isEnabled()) {
+            ci.cancel();*/
+        //}
     }
 
     /**

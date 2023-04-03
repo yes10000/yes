@@ -1,17 +1,7 @@
 {
-  "MurderMystery": {
-    "toggled": false,
-    "visible": true,
-    "keybind": 0
-  },
   "PotionEffects": {
     "toggled": false,
     "visible": false,
-    "keybind": 0
-  },
-  "NameProtect": {
-    "toggled": false,
-    "visible": true,
     "keybind": 0
   },
   "Breadcrumbs": {
@@ -64,22 +54,12 @@
     "visible": false,
     "keybind": 0
   },
-  "PingSpoof": {
-    "toggled": false,
-    "visible": true,
-    "keybind": 0
-  },
   "AutoType": {
     "toggled": false,
     "visible": true,
     "keybind": 0
   },
   "Fullbright": {
-    "toggled": false,
-    "visible": true,
-    "keybind": 0
-  },
-  "AntiBlind": {
     "toggled": false,
     "visible": true,
     "keybind": 0
@@ -114,11 +94,6 @@
     "visible": false,
     "keybind": 42
   },
-  "Tracers": {
-    "toggled": false,
-    "visible": true,
-    "keybind": 0
-  },
   "Hotbar": {
     "toggled": false,
     "visible": false,
@@ -135,11 +110,6 @@
     "keybind": 0
   },
   "Sprint": {
-    "toggled": false,
-    "visible": true,
-    "keybind": 0
-  },
-  "§cPanic": {
     "toggled": false,
     "visible": true,
     "keybind": 0
