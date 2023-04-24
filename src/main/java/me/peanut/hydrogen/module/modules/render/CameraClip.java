@@ -7,8 +7,8 @@ import me.peanut.hydrogen.module.Module;
 /**
  * Created by peanut on 26/12/2021
  */
-@Info(name = "CameraClip", description = "Disables clipping in third Person", category = Category.Render)
+//@Info(name = "CameraClip", description = "Disables clipping in third Person", category = Category.Render)
 public class CameraClip extends Module {
 
-    public CameraClip() {}
+    //public CameraClip() {}
 }

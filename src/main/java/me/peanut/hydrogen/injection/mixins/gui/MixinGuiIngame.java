@@ -5,7 +5,7 @@ import me.peanut.hydrogen.Hydrogen;
 import me.peanut.hydrogen.events.EventRender2D;
 import me.peanut.hydrogen.module.Module;
 import me.peanut.hydrogen.module.modules.render.Animations;
-import me.peanut.hydrogen.module.modules.render.AntiBlind;
+//import me.peanut.hydrogen.module.modules.render.AntiBlind;
 import me.peanut.hydrogen.ui.ingame.HUD;
 import me.peanut.hydrogen.utils.BlurUtil;
 import me.peanut.hydrogen.utils.RenderUtil;
@@ -142,11 +142,11 @@ public abstract class MixinGuiIngame extends MixinGui {
         }
     }
 
-    @Inject(method = "renderPumpkinOverlay", at = @At("HEAD"), cancellable = true)
+    //@Inject(method = "renderPumpkinOverlay", at = @At("HEAD"), cancellable = true)
     private void renderPumpkinOverlay(CallbackInfo ci) {
-        Module antiBlind = Hydrogen.getClient().moduleManager.getModule(AntiBlind.class);
-        if (antiBlind.isEnabled() && Hydrogen.getClient().settingsManager.getSettingByName(antiBlind, "Pumpkin").isEnabled()) {
-            ci.cancel();
-        }
+//        Module antiBlind = Hydrogen.getClient().moduleManager.getModule(AntiBlind.class);
+//        if (antiBlind.isEnabled() && Hydrogen.getClient().settingsManager.getSettingByName(antiBlind, "Pumpkin").isEnabled()) {
+//            ci.cancel();
+//        }
     }
 }

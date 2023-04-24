@@ -139,15 +139,15 @@ public abstract class MixinEntityPlayerSP extends MixinAbstractClientPlayer {
         this.sendQueue.addToSendQueue(new C01PacketChatMessage(message));
     }
 
-    @Inject(method = "swingItem", at = @At("HEAD"), cancellable = true)
+    //@Inject(method = "swingItem", at = @At("HEAD"), cancellable = true)
     private void swingItem(CallbackInfo callbackInfo) {
-        Module noSwing = Hydrogen.getClient().moduleManager.getModule(NoSwing.class);
+    /*    Module noSwing = Hydrogen.getClient().moduleManager.getModule(NoSwing.class);
         if (noSwing.isEnabled()) {
             callbackInfo.cancel();
             if(!Hydrogen.getClient().settingsManager.getSettingByName(noSwing, "Server-side").isEnabled()) {
                 this.sendQueue.addToSendQueue(new C0APacketAnimation());
             }
-        }
+        }*/
     }
 
     @Inject(method = "onUpdateWalkingPlayer", at = @At("HEAD"))

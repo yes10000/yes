@@ -10,8 +10,6 @@
   "HitAnimation": {},
   "NoChatRect": {},
   "NoHurtCam": {},
-  "CameraClip": {},
-  "NoBowFOV": {},
   "Animations": {
     "BlockHit": true,
     "Rod": true,
@@ -38,13 +36,9 @@
     "Health Value": 4.0
   },
   "Fullbright": {},
-  "AutoBow": {},
   "Freecam": {
     "Speed": 0.7,
     "Packet Suspend": true
-  },
-  "NoSwing": {
-    "Server-side": false
   },
   "ArrayList": {
     "Outline": true,

@@ -2,7 +2,7 @@ package me.peanut.hydrogen.injection.mixins.entity;
 
 import me.peanut.hydrogen.Hydrogen;
 import me.peanut.hydrogen.module.Module;
-import me.peanut.hydrogen.module.modules.render.AntiBlind;
+//import me.peanut.hydrogen.module.modules.render.AntiBlind;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.ai.attributes.IAttribute;

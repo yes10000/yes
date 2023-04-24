@@ -8,7 +8,7 @@ import me.peanut.hydrogen.module.Module;
 import me.peanut.hydrogen.module.modules.combat.HitBox;
 import me.peanut.hydrogen.module.modules.combat.Reach;
 import me.peanut.hydrogen.module.modules.player.MurderMystery;
-import me.peanut.hydrogen.module.modules.render.CameraClip;
+//import me.peanut.hydrogen.module.modules.render.CameraClip;
 import me.peanut.hydrogen.module.modules.render.NameTags;
 import me.peanut.hydrogen.module.modules.render.NoHurtCam;
 import me.peanut.hydrogen.module.modules.render.Tracers;
@@ -73,7 +73,7 @@ public abstract class MixinEntityRenderer {
 
     @Inject(method = "orientCamera", at = @At(value = "INVOKE", target = "Lnet/minecraft/util/Vec3;distanceTo(Lnet/minecraft/util/Vec3;)D"), cancellable = true)
     public void orientCamera(float partialTicks, CallbackInfo ci) {
-        if(Hydrogen.getClient().moduleManager.getModule(CameraClip.class).isEnabled()) {
+        if(/*Hydrogen.getClient().moduleManager.getModule(CameraClip.class).isEnabled()*/ false){
             ci.cancel();
             Entity entity = this.mc.getRenderViewEntity();
             float f = entity.getEyeHeight();

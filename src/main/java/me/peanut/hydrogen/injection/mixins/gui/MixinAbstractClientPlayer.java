@@ -74,15 +74,15 @@ public abstract class MixinAbstractClientPlayer extends MixinEntityPlayer {
         return ForgeHooksClient.getOffsetFOV((EntityPlayer) (Object) this, f);
     }
 
-    @Inject(method = "getLocationSkin()Lnet/minecraft/util/ResourceLocation;", at = { @At("HEAD") }, cancellable = true)
+    //@Inject(method = "getLocationSkin()Lnet/minecraft/util/ResourceLocation;", at = { @At("HEAD") }, cancellable = true)
     private void getSkin(final CallbackInfoReturnable<ResourceLocation> callbackInfoReturnable) {
-        Module nameProtect = Hydrogen.getClient().moduleManager.getModule(NameProtect.class);
+   /*     Module nameProtect = Hydrogen.getClient().moduleManager.getModule(NameProtect.class);
         if (nameProtect.isEnabled() && Hydrogen.getClient().settingsManager.getSettingByName(nameProtect, "SkinProtect").isEnabled()) {
             if (!Hydrogen.getClient().settingsManager.getSettingByName(nameProtect, "All Players").isEnabled() && !this.getGameProfile().getName().equals(Minecraft.getMinecraft().thePlayer.getGameProfile().getName())) {
                 return;
             }
             callbackInfoReturnable.setReturnValue(DefaultPlayerSkin.getDefaultSkin(this.getUniqueID()));
-        }
+        }*/
     }
 
 }

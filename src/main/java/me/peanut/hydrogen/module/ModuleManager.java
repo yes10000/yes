@@ -108,15 +108,15 @@ public class ModuleManager {
 
         //add(new AntiBlind());
         add(new Breadcrumbs());
-        add(new CameraClip());
-        add(new NoBowFOV());
-        add(new AutoBow());
+        //add(new CameraClip());
+        //add(new NoBowFOV());
+        //add(new AutoBow());
 
         // 1.12
 
         add(new AutoType());
         add(new Freecam());
-        add(new NoSwing());
+        //add(new NoSwing());
         add(new Animations());
         add(new HitAnimation());
 

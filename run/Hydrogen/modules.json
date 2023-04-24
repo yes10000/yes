@@ -29,16 +29,6 @@
     "visible": true,
     "keybind": 0
   },
-  "CameraClip": {
-    "toggled": false,
-    "visible": true,
-    "keybind": 0
-  },
-  "NoBowFOV": {
-    "toggled": false,
-    "visible": true,
-    "keybind": 0
-  },
   "Animations": {
     "toggled": false,
     "visible": true,
@@ -64,17 +54,7 @@
     "visible": true,
     "keybind": 0
   },
-  "AutoBow": {
-    "toggled": false,
-    "visible": true,
-    "keybind": 0
-  },
   "Freecam": {
-    "toggled": false,
-    "visible": true,
-    "keybind": 0
-  },
-  "NoSwing": {
     "toggled": false,
     "visible": true,
     "keybind": 0

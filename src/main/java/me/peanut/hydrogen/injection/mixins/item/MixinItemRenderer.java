@@ -2,7 +2,7 @@ package me.peanut.hydrogen.injection.mixins.item;
 
 import me.peanut.hydrogen.Hydrogen;
 import me.peanut.hydrogen.module.Module;
-import me.peanut.hydrogen.module.modules.render.AntiBlind;
+//import me.peanut.hydrogen.module.modules.render.AntiBlind;
 import me.peanut.hydrogen.module.modules.render.Animations;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.AbstractClientPlayer;
